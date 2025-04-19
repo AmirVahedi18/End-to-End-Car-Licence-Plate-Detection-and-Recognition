@@ -81,7 +81,37 @@ The dataset includes:
 
 ## **Sample Results**
 
-*Add visual examples of predictions here*
+### Sample One
+#### LPD Step
+![LPD_1](images/LPD_1.png)
+
+#### LPR Step
+![LPR_1_1](images/LPR_1_1.png)
+![LPR_1_1](images/LPR_1_2.png)
+
+
+
+
+### Sample Two
+#### LPD Step
+![LPD_1](images/LPD_2.png)
+
+#### LPR Step
+![LPR_1_1](images/LPR_2.png)
+
+
+
+
+
+### Sample Three
+#### LPD Step
+![LPD_1](images/LPD_3.png)
+
+#### LPR Step
+![LPR_1_1](images/LPR_3.png)
+
+
+
 
 ---
 
