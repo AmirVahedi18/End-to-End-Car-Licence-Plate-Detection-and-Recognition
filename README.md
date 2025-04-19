@@ -8,7 +8,7 @@ This project implements a **two-stage AI pipeline** to detect and recognize Iran
 
 This project includes:
 
-- **License Plate Detection (LPD)**: Localizing plates in images using YOLOv8.
+- **License Plate Detection (LPD)**: Localizing plates in images using YOLOv12.
 - **License Plate Recognition (LPR)**: Identifying alphanumeric characters using CNNs.
 
 ---
@@ -16,7 +16,7 @@ This project includes:
 ## **Technologies & Libraries**
 
 - Python
-- [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics)
+- [Ultralytics YOLOv12](https://github.com/ultralytics/ultralytics)
 - OpenCV
 - Matplotlib
 - PyYAML
@@ -33,10 +33,10 @@ The dataset includes:
 
 ---
 
-## 🔧 **Tasks Breakdown**
+## **Tasks Breakdown**
 
 ### **1. License Plate Detection (LPD)**
-- Trained YOLOv8 model on custom data.
+- Trained YOLOv12 model on custom data.
 - Used Ultralytics API for training & testing.
 - Evaluated via confidence scores and visual outputs.
 
@@ -60,12 +60,24 @@ The dataset includes:
 
 ## **Learning Outcomes**
 
-- Applied YOLOv8 for real-world detection
+- Applied YOLOv12 for real-world detection
 - Developed and trained CNNs for classification
 - Integrated models into a seamless end-to-end pipeline
 - Evaluated deep learning system performance
 
 ---
+
+## **Performance Results**
+
+**The system achieves a character recognition accuracy of 93.87% and an F1-score of 0.94 for license plate detection.**
+
+**Final YOLO Detection Results on Test Set:**
+
+- **mAP@50-95**: 0.75  
+- **mAP@50**: 0.97  
+- **mAP@75**: 0.87  
+- **Precision**: 0.95  
+- **Recall**: 0.935
 
 ## **Sample Results**
 
@@ -75,13 +87,13 @@ The dataset includes:
 
 ## **References**
 
-- [YOLOv8 Documentation](https://docs.ultralytics.com/)
-- [YOLOv8 Architecture Overview (Video)](https://youtube.com/playlist?list=PL8VDJoEXIjppNvOzocFbRciZBrtSMi81v)
+- [YOLOv12 Documentation](https://docs.ultralytics.com/)
+- [YOLOv12 Architecture Overview (Video)](https://youtube.com/playlist?list=PL8VDJoEXIjppNvOzocFbRciZBrtSMi81v)
 - [Ultralytics Model Docs](https://docs.ultralytics.com/models/)
 
 ---
 
-## 👤 **Author**
+## **Author**
 
 **Amir Vahedi**  
 M.Sc. in Computer Engineering – Artificial Intelligence  
